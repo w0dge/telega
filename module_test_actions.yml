@@ -16,7 +16,8 @@ jobs:
       run:  sudo apt install python3-pip
     - uses: actions/checkout@v2
     - name: Run Test
-      run: test.py
+      working-directory: ./tests
+      run: ./studtest.py
 © 2021 GitHub, Inc.
 Terms
 Privacy
